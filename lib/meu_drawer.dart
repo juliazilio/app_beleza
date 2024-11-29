@@ -63,7 +63,7 @@ class MeuDrawer extends StatelessWidget {
             ])));
           }),
           _createDrawerItem(icon: Icons.face, text: 'Skin Care', onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => ImageGridPage(title: 'Skin Care', imagePaths: [
+            Navigator.push(context, MaterialPageRoute(builder: (context) => ImageGridPage(title: 'Skin Cara', imagePaths: [
               'assets/skincare.jpg',
               'assets/skin2.png',
               'assets/skin3.jpg',
